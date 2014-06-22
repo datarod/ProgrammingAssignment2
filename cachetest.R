@@ -1,5 +1,6 @@
-## Put comments here that give an overall description of what your
-## functions do
+## workspace for cache
+# setup stuff
+
 ## This is completed by datarod on 20140623
 ## have an easy matrix ready to use for testing
 x <- matrix( rnorm(16), ncol=4, byrow=TRUE )
@@ -39,3 +40,4 @@ cacheSolve <- function(x, ...) {
         x$setsolve(m)
         m 
 }
+
